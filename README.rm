@@ -1,0 +1,124 @@
+# 🎮 Calculadora de Partidas Rankeadas - JavaScript
+
+## 📋 Sobre o Projeto
+
+Sistema de classificação de jogadores baseado em vitórias e derrotas, desenvolvido em JavaScript como parte dos estudos de lógica de programação. O sistema calcula automaticamente o saldo de vitórias e determina o rank do jogador conforme critérios estabelecidos.
+
+## 🎯 Funcionalidades
+
+- ✅ Cálculo automático do saldo de vitórias (vitórias - derrotas)
+- ✅ Sistema de classificação por ranks baseado no número de vitórias
+- ✅ Validação de múltiplos cenários de teste
+- ✅ Interface clara com resultados formatados
+- ✅ Função reutilizável para diferentes jogadores
+
+## 🏆 Sistema de Ranks
+
+|
+ Vitórias 
+|
+ Rank 
+|
+|
+----------
+|
+------
+|
+|
+ ≤ 10 
+|
+ 🔩 Ferro 
+|
+|
+ 11-20 
+|
+ 🥉 Bronze 
+|
+|
+ 21-50 
+|
+ 🥈 Prata 
+|
+|
+ 51-80 
+|
+ 🏅 Ouro 
+|
+|
+ 81-90 
+|
+ 💎 Diamante 
+|
+|
+ 91-100 
+|
+ 🌟 Lendário 
+|
+|
+ 100+ 
+|
+ ⚡ Imortal 
+|
+
+## 🚀 Como Usar
+
+```javascript
+// Exemplo básico
+let resultado = calcularRankeadas(50, 5);
+console.log(`Saldo: ${resultado.saldoVitorias}, Nível: ${resultado.nivel}`);
+
+// Resultado: Saldo: 45, Nível: Prata
+🛠️ Tecnologias Utilizadas
+JavaScript ES6+
+Estruturas Condicionais
+Funções e Retorno de Objetos
+Arrays e Loops
+Template Literals
+💡 Conceitos Aplicados
+✅ Funções: Modularização do código
+✅ Estruturas de Decisão: Sistema de classificação
+✅ Loops: Teste de múltiplos casos
+✅ Objetos: Retorno estruturado de dados
+✅ Arrays: Organização de casos de teste
+✅ Clean Code: Código limpo e legível
+📊 Exemplo de Execução
+🚀 Desafio DIO - Lógica de Programação - 02
+=====================================
+📅 Data: 28/11/2025
+2️⃣ Calculadora de partidas Rankeadas
+=====================================
+
+--- Testando diferentes casos ---
+Caso 1: 8 vitórias, 2 derrotas = Saldo: 6, Nível: Ferro
+Caso 2: 15 vitórias, 5 derrotas = Saldo: 10, Nível: Bronze
+Caso 3: 50 vitórias, 5 derrotas = Saldo: 45, Nível: Prata
+Caso 4: 75 vitórias, 10 derrotas = Saldo: 65, Nível: Ouro
+Caso 5: 85 vitórias, 15 derrotas = Saldo: 70, Nível: Diamante
+Caso 6: 95 vitórias, 5 derrotas = Saldo: 90, Nível: Lendário
+Caso 7: 150 vitórias, 20 derrotas = Saldo: 130, Nível: Imortal
+
+--- Resultado Principal ---
+O Herói tem de saldo de 45 está no nível de Prata
+🎮 Casos de Teste Implementados
+O sistema inclui 7 casos de teste que cobrem todos os ranks:
+
+Ferro: 8 vitórias → Saldo: 6
+Bronze: 15 vitórias → Saldo: 10
+Prata: 50 vitórias → Saldo: 45
+Ouro: 75 vitórias → Saldo: 65
+Diamante: 85 vitórias → Saldo: 70
+Lendário: 95 vitórias → Saldo: 90
+Imortal: 150 vitórias → Saldo: 130
+�� Aprendizados
+Implementação de sistemas de classificação
+Uso de estruturas condicionais encadeadas
+Organização de código com funções
+Testes automatizados com arrays
+Formatação e apresentação de resultados
+🔄 Possíveis Melhorias
+Validação de entrada (números negativos)
+Interface gráfica
+Histórico de partidas
+Sistema de pontuação mais complexo
+Integração com APIs de jogos
+⭐ Gostou do projeto? Deixe uma estrela no repositório!
